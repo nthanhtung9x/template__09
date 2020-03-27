@@ -1,3 +1,28 @@
+/* load */
+
+.load {
+    position: fixed;
+    top:0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1000;
+    background: rgba(0, 0, 0, 0.5);
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.load__icon {
+    position: absolute;
+    color: var(--hover-color);
+    font-size: 8rem;
+    animation: load 1.5s linear infinite;
+    -webkit-animation: load 1.5s linear infinite;
+    -o-animation: load 1.5s linear infinite;
+    -moz-animation: load 1.5s linear infinite;
+}
+
 /* Header */
 
 .header {

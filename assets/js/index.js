@@ -1,3 +1,7 @@
+$(window).on('load',function(){
+    $('.load').delay(500).fadeOut('slow');
+});
+
 $(document).ready(function(){
     // menu
     $('.menu').click(function(){
